@@ -6,7 +6,7 @@ configDotenv();
 const app = express();
 app.use(express.json());
 app.use(cors({
-  origin: "https://moody-player-frontend-6pvd.onrender.com/",
+  origin: "https://moody-player-frontend-6pvd.onrender.com",
   methods: ["GET", "POST"],
   credentials: true,
 }));
